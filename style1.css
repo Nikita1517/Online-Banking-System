@@ -1,0 +1,198 @@
+.container{
+
+    width: 300px;
+    height: 580px;
+    border-radius: 10px;
+    border-top: 5px solid rgb(228, 19, 19);
+    background: #7BA6F9;
+    position: relative;
+    top: 1px;
+    margin: 10px 0px;
+    padding: 0px ;
+    text-align: justify;
+
+}
+.containera{
+
+    width: 1200px;
+    height: 580px;
+    position: absolute;
+    top: 120px;
+    right: 19px;
+    background: #FFEE58;
+    border-top: 5px solid rgb(228, 19, 19);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+a{
+    width: 300px;
+    top: 5%;
+    left: 10%;
+    font-size: 20px;
+    border: 1px solid;
+    background: #FFEE58;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+a:hover
+{
+  border-right: 10px solid rgb(228, 19, 19);
+  border-left: 10px solid rgb(228, 19, 19);
+  text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+    width: 98%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+table thead th{
+    border-color: rgb(89, 42, 165);
+    color: white;
+
+}
+table td{
+    border: 1px solid rgb(190, 26, 26);
+    padding: 4px 8px;
+
+}
+table tr:nth-child(odd) th{
+    background-color: rgb(201, 15, 27);
+}
+
+.logo{
+    position: relative;
+    top: 5px;
+    right: -5px;
+    height: 0px;
+    width: 0px;
+}
+
+nav{
+
+    background:rgb(9, 66, 88);
+    height: 100px;
+    width: 99%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.head h1{
+    position: relative;
+    text-align: center;
+    color: rgb(40, 166, 224);
+    top: -40px;
+    height: 100%;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+
+}
+
+.transaction{
+    width: 1180px;
+    height: 580px;
+    position: absolute;
+    top: 120px;
+    right: 19px;
+    background: #FFEE58;
+    border-top: 5px solid rgb(228, 19, 19);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.transaction form table td{
+    padding: 4px 8px;
+}
+
+.changepass{
+
+    width: 1200px;
+    height: 580px;
+    position: absolute;
+    top: 120px;
+    right: 19px;
+    background: #FFEE58;
+    border-top: 5px solid rgb(228, 19, 19);
+    text-align: center;
+    padding:20px 50px;
+    box-sizing:border-box;
+    box-shadow:0 3px 12px rgba(0,0,0,0.2);
+    border-radius:2%
+}
+.changepass h1 span, small {
+  display:block;
+  font-size: 14px;
+ }
+small{
+  font-style: italic;
+  font-size: 13px;
+  font-weight: bold;
+}
+form p { position: relative; }
+
+.password {
+  width: 90%;
+  padding: 15px 12px;
+  margin-bottom: 5px;
+  border: 1px solid red;
+  border-radius: 10px;
+  border-bottom: 2px solid #ddd;
+  background: rgba(255,255,255,0.2);
+  color: red;
+}
+.password + .unmask {
+  position: absolute;
+  right: 5%;
+  top: 10px;
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border-radius: 50%;
+  cursor:pointer;
+  border: none;
+
+  font-size:14px;
+  line-height:24px;
+  -webkit-appearance:none;
+  outline:none
+}
+.password + .unmask:before {
+  content: "\f06e";
+  position:absolute;
+  top:0; left:0;
+  width: 25px;
+  height: 25px;
+  background: rgba(205,205,205,0.2);
+  z-index:1;
+  color:#aaa;
+  border:2px solid;
+  border-radius: 50%;
+}
+
+body
+{
+  background: #BEB8B8;
+}
+#button
+{
+  margin-top: 15px;
+  font-size: 20px;
+}
